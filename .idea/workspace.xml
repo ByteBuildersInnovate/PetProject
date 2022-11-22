@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd863a12-ade1-4c7e-9632-028a0d1fac72" name="Changes" comment="new project">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ChoiceOptionsCurses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LoginOnTheResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LogoutInTheResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ViewDocs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ViewLeaderboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="bd863a12-ade1-4c7e-9632-028a0d1fac72" name="Changes" comment="Five classes for interacting with the web site https://www.codewars.com/&#10;Two classes are partially implemented.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668509147290</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Five classes for interacting with the web site https://www.codewars.com/&#10;Two classes are partially implemented.">
+      <created>1669140226056</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669140226056</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,7 +177,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new project" />
-    <option name="LAST_COMMIT_MESSAGE" value="new project" />
+    <MESSAGE value="Five classes for interacting with the web site https://www.codewars.com/&#10;Two classes are partially implemented." />
+    <option name="LAST_COMMIT_MESSAGE" value="Five classes for interacting with the web site https://www.codewars.com/&#10;Two classes are partially implemented." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
