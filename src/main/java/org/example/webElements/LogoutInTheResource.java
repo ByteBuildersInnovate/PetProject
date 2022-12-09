@@ -7,7 +7,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.support.ui.Select;
 
 import java.util.concurrent.TimeUnit;
 
@@ -39,9 +38,6 @@ public class LogoutInTheResource {
         singIn.click();
 
         //не разоьрался как выьрать элемент из Drop-Down если у элемента есть только class
-        WebElement dropDownList = driver.findElement(By.className("menu shadow-lg"));
-        Select select = new Select(dropDownList);
-        select.selectByIndex(5);
 
         //driver.quit();
     }

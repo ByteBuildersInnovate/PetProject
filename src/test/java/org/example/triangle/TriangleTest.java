@@ -1,4 +1,4 @@
-package org.example;
+package org.example.triangle;
 
 import org.example.areaOfTriangle.ExceptionsForTriangle;
 import org.example.areaOfTriangle.Triangle;

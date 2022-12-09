@@ -4,21 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd863a12-ade1-4c7e-9632-028a0d1fac72" name="Changes" comment="faile">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/areaOfTriangle/ExceptionsForTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/areaOfTriangle/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TriangleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="bd863a12-ade1-4c7e-9632-028a0d1fac72" name="Changes" comment="Triangle Unit tests.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/webElements/AbstractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/webElements/ChangeTrainingSetupTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/webElements/NegativeLoginUserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/webElements/TrainingMenuTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/webElements/UserLoginLogoutTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/webElements/UserProfileChangeNameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/webElements/ViewDocsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ChoiceOptionsCurses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/webElements/ChoiceOptionsCurses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LoginOnTheResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/webElements/LoginOnTheResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LogoutInTheResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/webElements/LogoutInTheResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ViewDocs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/webElements/ViewDocs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ViewLeaderboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/webElements/ViewLeaderboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/webElements/LogoutInTheResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/webElements/LogoutInTheResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TriangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/triangle/TriangleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,15 +28,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="XML Properties File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="hw_JUnit" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,7 +60,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2Ha22E1RqhDIiD2yGVKShRESi92" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -78,7 +75,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Program Files/Java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Curses/AutomationUI/AutoTestingWebUI_HomeWork_5-master&quot;,
     &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -89,82 +86,82 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Curses\AutomationUI\PetProject\src\test\java\resources" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.TriangleTest">
-    <configuration name="TriangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.NegativeLoginUserTest">
+    <configuration name="ChangeTrainingSetupTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PetProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.webElements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TriangleTest" />
+      <option name="PACKAGE_NAME" value="org.example.webElements" />
+      <option name="MAIN_CLASS_NAME" value="org.example.webElements.ChangeTrainingSetupTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangleTest.correctValueArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NegativeLoginUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PetProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.webElements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TriangleTest" />
-      <option name="METHOD_NAME" value="correctValueArea" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="org.example.webElements" />
+      <option name="MAIN_CLASS_NAME" value="org.example.webElements.NegativeLoginUserTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangleTest.incorrectValueAreLessThanZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TrainingMenuTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PetProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.webElements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TriangleTest" />
-      <option name="METHOD_NAME" value="incorrectValueAreLessThanZero" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="org.example.webElements" />
+      <option name="MAIN_CLASS_NAME" value="org.example.webElements.TrainingMenuTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangleTest.incorrectValuePartiesDoNotTriangle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ViewDocsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PetProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.webElements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TriangleTest" />
-      <option name="METHOD_NAME" value="incorrectValuePartiesDoNotTriangle" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="org.example.webElements" />
+      <option name="MAIN_CLASS_NAME" value="org.example.webElements.ViewDocsTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangleTest.negativeNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ViewDocsTest.viewDocsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PetProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.webElements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TriangleTest" />
-      <option name="METHOD_NAME" value="negativeNumberTest" />
+      <option name="PACKAGE_NAME" value="org.example.webElements" />
+      <option name="MAIN_CLASS_NAME" value="org.example.webElements.ViewDocsTest" />
+      <option name="METHOD_NAME" value="viewDocsTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TriangleTest" />
-        <item itemvalue="JUnit.TriangleTest.incorrectValuePartiesDoNotTriangle" />
-        <item itemvalue="JUnit.TriangleTest.incorrectValueAreLessThanZero" />
-        <item itemvalue="JUnit.TriangleTest.correctValueArea" />
-        <item itemvalue="JUnit.TriangleTest.negativeNumberTest" />
+        <item itemvalue="JUnit.NegativeLoginUserTest" />
+        <item itemvalue="JUnit.TrainingMenuTest" />
+        <item itemvalue="JUnit.ViewDocsTest.viewDocsTest" />
+        <item itemvalue="JUnit.ViewDocsTest" />
+        <item itemvalue="JUnit.ChangeTrainingSetupTest" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +207,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669140930674</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Triangle Unit tests.">
+      <created>1669826355728</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669826355728</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Triangle Unit tests.">
+      <created>1669826377611</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669826377611</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,7 +251,8 @@
     <MESSAGE value="new project" />
     <MESSAGE value="Five classes for interacting with the web site https://www.codewars.com/&#10;Two classes are partially implemented." />
     <MESSAGE value="faile" />
-    <option name="LAST_COMMIT_MESSAGE" value="faile" />
+    <MESSAGE value="Triangle Unit tests." />
+    <option name="LAST_COMMIT_MESSAGE" value="Triangle Unit tests." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
