@@ -4,18 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd863a12-ade1-4c7e-9632-028a0d1fac72" name="Changes" comment="Triangle Unit tests.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/webElements/AbstractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/webElements/ChangeTrainingSetupTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/webElements/NegativeLoginUserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/webElements/TrainingMenuTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/webElements/UserLoginLogoutTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/webElements/UserProfileChangeNameTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/webElements/ViewDocsTest.java" afterDir="false" />
+    <list default="true" id="bd863a12-ade1-4c7e-9632-028a0d1fac72" name="Changes" comment="Selenium tests webElements.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/webElements/AbstractPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/webElements/AccountMenuPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/webElements/AssertionsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/webElements/LoginFormsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/webElements/MainMenuPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/webElements/LogoutInTheResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/webElements/LogoutInTheResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TriangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/triangle/TriangleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/webElements/ChoiceOptionsCurses.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/webElements/LoginOnTheResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/webElements/LogoutInTheResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/webElements/ViewDocs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/webElements/ViewLeaderboard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/webElements/AbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/webElements/AbstractTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/webElements/ChangeTrainingSetupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/webElements/ChangeTrainingSetupTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/webElements/NegativeLoginUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/webElements/NegativeLoginUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/webElements/TrainingMenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/webElements/TrainingMenuTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/webElements/UserLoginLogoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/webElements/UserLoginLogoutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/webElements/UserProfileChangeNameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/webElements/UserProfileChangeNameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/webElements/ViewDocsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/webElements/ViewDocsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +43,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="hw_JUnit" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -90,8 +97,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NegativeLoginUserTest">
-    <configuration name="ChangeTrainingSetupTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UserProfileChangeNameTest.userProfileChangeNameTest">
+    <configuration name="ChangeTrainingSetupTest.changeTrainingSetupTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PetProject" />
       <extension name="coverage">
         <pattern>
@@ -101,7 +108,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.webElements" />
       <option name="MAIN_CLASS_NAME" value="org.example.webElements.ChangeTrainingSetupTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="changeTrainingSetupTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,7 +129,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrainingMenuTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserLoginLogoutTest.userLoginLogoutTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PetProject" />
       <extension name="coverage">
         <pattern>
@@ -130,13 +138,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example.webElements" />
-      <option name="MAIN_CLASS_NAME" value="org.example.webElements.TrainingMenuTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="org.example.webElements.UserLoginLogoutTest" />
+      <option name="METHOD_NAME" value="userLoginLogoutTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ViewDocsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserProfileChangeNameTest.userProfileChangeNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PetProject" />
       <extension name="coverage">
         <pattern>
@@ -145,8 +154,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example.webElements" />
-      <option name="MAIN_CLASS_NAME" value="org.example.webElements.ViewDocsTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="org.example.webElements.UserProfileChangeNameTest" />
+      <option name="METHOD_NAME" value="userProfileChangeNameTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -169,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.NegativeLoginUserTest" />
-        <item itemvalue="JUnit.TrainingMenuTest" />
+        <item itemvalue="JUnit.UserProfileChangeNameTest.userProfileChangeNameTest" />
+        <item itemvalue="JUnit.ChangeTrainingSetupTest.changeTrainingSetupTest" />
         <item itemvalue="JUnit.ViewDocsTest.viewDocsTest" />
-        <item itemvalue="JUnit.ViewDocsTest" />
-        <item itemvalue="JUnit.ChangeTrainingSetupTest" />
+        <item itemvalue="JUnit.UserLoginLogoutTest.userLoginLogoutTest" />
+        <item itemvalue="JUnit.NegativeLoginUserTest" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669826377611</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Selenium tests webElements.">
+      <created>1670607078349</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670607078349</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -252,7 +269,8 @@
     <MESSAGE value="Five classes for interacting with the web site https://www.codewars.com/&#10;Two classes are partially implemented." />
     <MESSAGE value="faile" />
     <MESSAGE value="Triangle Unit tests." />
-    <option name="LAST_COMMIT_MESSAGE" value="Triangle Unit tests." />
+    <MESSAGE value="Selenium tests webElements." />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium tests webElements." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

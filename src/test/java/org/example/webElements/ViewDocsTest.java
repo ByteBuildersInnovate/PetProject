@@ -2,9 +2,6 @@ package org.example.webElements;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -19,9 +16,9 @@ public class ViewDocsTest extends AbstractTest {
     public void viewDocsTest() throws InterruptedException {
         logger.info("Start test for login");
 
-        Actions builder = new Actions(getDriver());
-        WebElement leftMenu = getDriver().findElement(By.xpath("//*[@id='sidenav']/ul"));
-        builder.moveToElement(leftMenu).moveToElement(getDriver().findElement(By.xpath("//*[@id='sidenav']/ul/li[10]/a/div[2]/div[1]"))).click().build().perform();
+        //Вызов метода для перехода на страницу с документацией
+        MainMenuPage openDocs = new MainMenuPage(getDriver());
+        openDocs.viewDocs();
 
         Thread.sleep(300);
 
