@@ -39,19 +39,12 @@ public abstract class AbstractTest {
         driver.manage().deleteCookieNamed("WebSait have cookies");
         Assertions.assertDoesNotThrow( ()-> driver.navigate().to("https://www.codewars.com/"), "The site is not available.");
 
-        //login
+        //переход к форме авторизации
         WebElement buttonWithLogin = getDriver().findElement(By.xpath("//*[@id='login-btn']"));
         buttonWithLogin.click();
-        WebElement writeLogin = getDriver().findElement(By.xpath("//*[@id='user_email']"));
-        writeLogin.click();
-        writeLogin.sendKeys("ivsOrigin@gmail.com");
-
-        WebElement writePassword = getDriver().findElement(By.xpath("//*[@id='user_password']"));
-        writePassword.click();
-        writePassword.sendKeys("162018Bobbi");
-
-        WebElement singIn = getDriver().findElement(By.xpath("//*[@id='new_user']/button[2]"));
-        singIn.click();
+        //login (Базовая авторизация пользователя)
+        LoginFormsPage userLogin = new LoginFormsPage(getDriver());
+        userLogin.userLoginPassword("ivsOrigin@gmail.com", "162018Bobbi");
 
         Thread.sleep(3000);
 
