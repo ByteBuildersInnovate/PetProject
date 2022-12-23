@@ -1,6 +1,8 @@
 package org.example.webElements;
 
+import io.qameta.allure.*;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -10,6 +12,11 @@ public class TrainingMenuTest extends AbstractTest {
     static Logger logger = LoggerFactory.getLogger(UserLoginLogoutTest.class);
 
     @Test
+    @DisplayName("Главное меню")
+    @Description("Тест на проверку работы страниц главного меню")
+    @Link("http://yandex.ru")
+    @Issue("https://www.codewars.com/")
+    @Severity(SeverityLevel.CRITICAL)
     public void trainingMenuPracticeTest() throws InterruptedException {
 
         logger.info("Start test for login");

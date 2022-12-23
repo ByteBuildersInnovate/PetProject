@@ -1,6 +1,8 @@
 package org.example.webElements;
 
+import io.qameta.allure.*;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.slf4j.Logger;
@@ -11,6 +13,11 @@ public class NegativeLoginUserTest extends AbstractTest {
     static Logger logger = LoggerFactory.getLogger(UserLoginLogoutTest.class);
 
     @Test
+    @DisplayName("Аторизация - негативный тест")
+    @Description("Тест на попытку аторизации с неверными учетными данными")
+    @Link("http://yandex.ru")
+    @Issue("https://www.codewars.com/")
+    @Severity(SeverityLevel.CRITICAL)
     public void negativeLoginUserTest() throws InterruptedException {
 
         logger.info("Start test for login");

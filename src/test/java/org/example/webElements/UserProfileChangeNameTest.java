@@ -1,6 +1,8 @@
 package org.example.webElements;
 
+import io.qameta.allure.*;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.slf4j.Logger;
@@ -12,6 +14,11 @@ public class UserProfileChangeNameTest extends AbstractTest{
     static Logger logger = LoggerFactory.getLogger(UserProfileChangeNameTest.class);
 
     @Test
+    @DisplayName("Смена имени пользователя")
+    @Description("Тест на смену имени пользователя")
+    @Link("http://yandex.ru")
+    @Issue("https://www.codewars.com/")
+    @Severity(SeverityLevel.NORMAL)
     public void userProfileChangeNameTest() throws InterruptedException {
         logger.info("Start test for login");
 
