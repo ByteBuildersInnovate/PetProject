@@ -1,6 +1,8 @@
 package org.example.webElements;
 
+import io.qameta.allure.*;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,6 +15,11 @@ public class ViewDocsTest extends AbstractTest {
     static Logger logger = LoggerFactory.getLogger(UserLoginLogoutTest.class);
 
     @Test
+    @DisplayName("Документация")
+    @Description("Переход на вед-страницу с документацией")
+    @Link("http://yandex.ru")
+    @Issue("https://www.codewars.com/")
+    @Severity(SeverityLevel.MINOR)
     public void viewDocsTest() throws InterruptedException {
         logger.info("Start test for login");
 
